@@ -24,6 +24,11 @@ Brief description of your project.
     6  sudo apt-get install redis
     7  sudo service redis-server start
     8  redis-cli
+## To check custom End point working or not in local i added custom url in localhost file in windows
+
+Path - C:\Windows\System32\drivers\etc
+
+Add Entry here
 
 ## Introduction
 
