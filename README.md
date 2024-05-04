@@ -14,6 +14,17 @@ Brief description of your project.
 - [Contributing](#contributing)
 - [License](#license)
 
+
+## Use Command to RUN Reddis Queue -running linux on windows by using WSL 
+    1  curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+    2  echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+    3  sudo apt-get update
+    4  sudo apt-get install redis
+    5  sudo apt-get update
+    6  sudo apt-get install redis
+    7  sudo service redis-server start
+    8  redis-cli
+
 ## Introduction
 
 Provide a brief overview of your project, its purpose, and its main features.
