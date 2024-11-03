@@ -2,7 +2,7 @@ import { S3 } from "aws-sdk";
 import fs from "fs";
 import path from "path";
 
-
+// Deactivated
 const s3 = new S3({
   accessKeyId: "c2ea59b0ca156bb407ce948da3c123e6",
   secretAccessKey: "3b2b6337916c4ea79fa815f8615bcdf955736dce8b6448d0ab062cd1e4df0ae2",
